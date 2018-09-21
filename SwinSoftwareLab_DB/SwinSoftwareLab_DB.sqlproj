@@ -58,4 +58,17 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Students.sql" />
+    <Build Include="Modules.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="LoadTestData">
+      <DefaultValue>false</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
+  </ItemGroup>
 </Project>

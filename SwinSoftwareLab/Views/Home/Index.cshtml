@@ -1,0 +1,33 @@
+﻿@using SwinSoftwareLab.Models;
+@Model SwinSoftwareLab.Models.Students;
+@Model SwinSoftwareLab.Models.Modules;
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Swinburne Software Lab!</h1>
+    <p class="lead">You can retrieve your Modules, fellow Mac users on Microsoft today!</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <li>
+        <ul />
+        <div class="comment-left-col">
+            <div class="row">
+                <table class="table">
+                    @*@foreach (var item in Model.Students)
+                    {
+                        <tr>
+                            <td>
+                                @ViewBag.Name
+                                @ViewData["ID"]
+                            </td>
+                        </tr>
+                    }*@
+                </table>
+            </div>
+        </div>
+    </li>
+</div>

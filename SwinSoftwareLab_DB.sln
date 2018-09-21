@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SwinSoftwareLab_DB", "SwinSoftwareLab_DB\SwinSoftwareLab_DB.sqlproj", "{FA50D8DE-3583-4081-8350-DF7FD371C823}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwinSoftwareLab", "SwinSoftwareLab\SwinSoftwareLab.csproj", "{3BA7EB58-13C6-4C7C-A7C0-FF8A10055A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwinSoftwareLab.Tests", "SwinSoftwareLab.Tests\SwinSoftwareLab.Tests.csproj", "{89103E64-44B1-4A28-A4D0-4E8124AB715B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{FA50D8DE-3583-4081-8350-DF7FD371C823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA50D8DE-3583-4081-8350-DF7FD371C823}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA50D8DE-3583-4081-8350-DF7FD371C823}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3BA7EB58-13C6-4C7C-A7C0-FF8A10055A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA7EB58-13C6-4C7C-A7C0-FF8A10055A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA7EB58-13C6-4C7C-A7C0-FF8A10055A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA7EB58-13C6-4C7C-A7C0-FF8A10055A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89103E64-44B1-4A28-A4D0-4E8124AB715B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89103E64-44B1-4A28-A4D0-4E8124AB715B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89103E64-44B1-4A28-A4D0-4E8124AB715B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89103E64-44B1-4A28-A4D0-4E8124AB715B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
